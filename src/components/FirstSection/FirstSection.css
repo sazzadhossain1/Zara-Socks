@@ -1,0 +1,10 @@
+.firstSection_parent_div {
+  margin-top: 100px;
+}
+.firstSection_grid_div {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 75%;
+  margin: auto;
+  gap: 20px;
+}

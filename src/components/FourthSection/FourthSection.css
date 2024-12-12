@@ -1,0 +1,31 @@
+.fourth_section_grid_div {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 65%;
+  margin: auto;
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
+.fourth_section_text_parent_div {
+  background-color: #f3f4f6;
+  border-radius: 10px;
+}
+.fourth_section_photoOne {
+  width: 80%;
+  border-radius: 10px;
+}
+.newsAndEvents {
+}
+.fourth_section_flex_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  text-align: left;
+}
+.fourth_section_flex_photo {
+  width: 7%;
+}
+.fourth_section_flex_div div h4 {
+  font-size: 18px;
+}

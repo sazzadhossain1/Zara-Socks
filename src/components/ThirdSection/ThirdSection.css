@@ -1,0 +1,65 @@
+.thirdSection_div {
+  margin-top: 100px;
+}
+.thirdSection_div h1 {
+  font-size: 40px;
+}
+.thirt_section_grid_div {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 75%;
+  margin: auto;
+  margin-bottom: 50px;
+}
+.thirdSection_first_cart_div {
+  margin: auto;
+  background-image: url("../../accets/ThirdSectionPhoto/photoOne.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  height: 300px;
+  width: 350px;
+  position: relative;
+  border-radius: 10px;
+}
+.thirdSection_second_cart_div {
+  margin: auto;
+  background-image: url("../../accets/ThirdSectionPhoto/photoTwo.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  height: 300px;
+  width: 350px;
+  position: relative;
+  border-radius: 10px;
+}
+.thirdSection_third_cart_div {
+  margin: auto;
+  background-image: url("../../accets/ThirdSectionPhoto/photoThree.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  height: 300px;
+  width: 350px;
+  position: relative;
+  border-radius: 10px;
+}
+.thirdSection_first_cart_text_div {
+  text-align: left;
+  bottom: 10px;
+  position: absolute;
+  left: 10px;
+}
+.third_section_p {
+  font-size: 20px;
+  font-weight: 500;
+}
+.faArrowRight {
+  background-color: white;
+  color: black;
+  padding: 5px;
+  border-radius: 50%;
+}

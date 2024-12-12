@@ -1,0 +1,21 @@
+.secondSectionCart_main_parent_div {
+  text-align: left;
+}
+.secondSectionCart_parent_div {
+  text-align: left;
+  /* background-color: red; */
+  height: 300px;
+}
+.secondSectionCart_image {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.paragraph {
+  margin-top: -100px;
+  margin-left: 10px;
+  color: white;
+  font-size: 30px;
+}
+.second_cart_btn {
+}

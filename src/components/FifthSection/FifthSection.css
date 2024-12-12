@@ -1,0 +1,18 @@
+.our_valued {
+  font-size: 40px;
+}
+.fifthSection_logo_div {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  width: 40%;
+
+  gap: 10px;
+  margin: auto;
+  margin-bottom: 100px;
+  margin-top: 50px;
+}
+.fifthSection_logo_div img {
+  width: 60%;
+  margin: auto;
+}

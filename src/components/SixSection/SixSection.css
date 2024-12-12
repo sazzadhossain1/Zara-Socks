@@ -1,0 +1,29 @@
+.six_flex_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75%;
+  margin: auto;
+  background-color: #cddbfe;
+  padding: 50px;
+  border-radius: 20px;
+  margin-bottom: 100px;
+}
+.six_section_text_div {
+  text-align: left;
+}
+.six_photoOne {
+  width: 50%;
+}
+.six_DOWNLOAD {
+  border: 1px solid black;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+.Check_our {
+  color: #172554;
+  font-size: 1.25rem;
+  font-weight: 600;
+}

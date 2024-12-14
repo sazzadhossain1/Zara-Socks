@@ -353,9 +353,36 @@ header {
     font-weight: bold;
   }
 }
+
+@media screen and (max-width: 1345px) {
+  .nav-btn {
+    flex: 5;
+  }
+}
 @media screen and (max-width: 1271px) {
   .nav_media_div_parent_div {
     display: none;
+  }
+}
+@media screen and (max-width: 1217px) {
+  .nav-btn {
+    flex: 8;
+  }
+}
+@media screen and (max-width: 1151px) {
+  .logo {
+    font-size: 16px;
+  }
+  .nav-link > a {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 1089px) {
+  .logo {
+    font-size: 16px;
+  }
+  .nav-link > a {
+    font-size: 13px;
   }
 }
 @media (max-width: 1070px) {

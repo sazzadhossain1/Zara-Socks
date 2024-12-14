@@ -11,13 +11,13 @@ import SixSection from "../SixSection/SixSection";
 const Home = () => {
   return (
     <div>
-      <Banner></Banner>
-      <FirstSection></FirstSection>
+      {/* <Banner></Banner> */}
+      {/* <FirstSection></FirstSection>
       <SecondSection></SecondSection>
       <ThirdSection></ThirdSection>
       <FourthSection></FourthSection>
       <FifthSection></FifthSection>
-      <SixSection></SixSection>
+      <SixSection></SixSection> */}
     </div>
   );
 };

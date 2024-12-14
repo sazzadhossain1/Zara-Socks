@@ -11,7 +11,7 @@ import SixSection from "../SixSection/SixSection";
 const Home = () => {
   return (
     <div>
-      {/* <Banner></Banner> */}
+      <Banner></Banner>
       {/* <FirstSection></FirstSection>
       <SecondSection></SecondSection>
       <ThirdSection></ThirdSection>

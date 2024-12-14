@@ -29,3 +29,13 @@
   height: 90%;
   background-color: rgba(0, 0, 0, 0.5);
 }
+@media screen and (max-width: 1271px) {
+  .overlay {
+    top: 84px;
+  }
+}
+@media screen and (max-width: 1145px) {
+  .overlay {
+    top: 80px;
+  }
+}

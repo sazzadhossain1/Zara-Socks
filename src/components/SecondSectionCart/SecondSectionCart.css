@@ -17,5 +17,79 @@
   color: white;
   font-size: 30px;
 }
-.second_cart_btn {
+@media screen and (max-width: 1536px) {
+  .secondSectionCart_parent_div {
+    height: 270px;
+  }
+}
+@media screen and (max-width: 1313px) {
+  .paragraph {
+    font-size: 25px;
+  }
+  .secondSectionCart_parent_div {
+    height: 250px;
+  }
+}
+@media screen and (max-width: 1230px) {
+  .secondSectionCart_parent_div {
+    height: 220px;
+  }
+}
+@media screen and (max-width: 985px) {
+  .secondSectionCart_parent_div {
+    height: 200px;
+  }
+  .paragraph {
+    font-size: 22px;
+  }
+}
+@media screen and (max-width: 876px) {
+  .paragraph {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 790px) {
+  .secondSectionCart_parent_div {
+    height: 170px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .secondSectionCart_parent_div {
+    height: 250px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .secondSectionCart_parent_div {
+    height: 230px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .secondSectionCart_parent_div {
+    height: 180px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .secondSectionCart_parent_div {
+    height: 350px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .secondSectionCart_parent_div {
+    height: 300px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .secondSectionCart_parent_div {
+    height: 250px;
+  }
+}
+@media screen and (max-width: 300px) {
+  .secondSectionCart_parent_div {
+    height: 200px;
+  }
+}
+@media screen and (max-width: 250px) {
+  .secondSectionCart_parent_div {
+    height: 180px;
+  }
 }

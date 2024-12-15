@@ -16,3 +16,34 @@
   width: 60%;
   margin: auto;
 }
+@media screen and (max-width: 900px) {
+  .fifthSection_logo_div {
+    width: 70%;
+    gap: 0px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .fifthSection_logo_div {
+    width: 80%;
+    gap: 30px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .our_valued {
+    font-size: 25px;
+  }
+  .fifthSection_logo_div {
+    width: 90%;
+    gap: 0px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .our_valued {
+    font-size: 25px;
+  }
+  .fifthSection_logo_div {
+    grid-template-columns: 1fr;
+    width: 98%;
+    gap: 50px;
+  }
+}

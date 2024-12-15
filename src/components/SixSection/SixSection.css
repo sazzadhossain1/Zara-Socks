@@ -27,3 +27,28 @@
   font-size: 1.25rem;
   font-weight: 600;
 }
+
+@media screen and (max-width: 1255px) {
+  .six_flex_div {
+    width: 85%;
+  }
+}
+@media screen and (max-width: 1107px) {
+  .six_flex_div {
+    width: 88%;
+  }
+}
+@media screen and (max-width: 1047px) {
+  .six_flex_div {
+    width: 92%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .six_flex_div {
+    flex-direction: column;
+  }
+  .six_photoOne {
+    width: 100%;
+    margin-top: 20px;
+  }
+}

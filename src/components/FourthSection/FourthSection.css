@@ -29,3 +29,47 @@
 .fourth_section_flex_div div h4 {
   font-size: 18px;
 }
+
+@media screen and (max-width: 1536px) {
+  .fourth_section_grid_div {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .fourth_section_grid_div {
+    width: 70%;
+  }
+  .fourth_section_photoOne {
+    height: 100%;
+  }
+  .fourth_section_text_parent_div {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .fourth_section_grid_div {
+    width: 90%;
+    gap: 50px;
+  }
+  .fourth_section_photoOne {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .fourth_section_grid_div {
+    width: 95%;
+    gap: 20px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .fourth_section_grid_div {
+    grid-template-columns: 1fr;
+    width: 95%;
+    gap: 0px;
+  }
+  .fourth_section_photoOne {
+    height: 80%;
+    object-fit: cover;
+  }
+}

@@ -12,8 +12,8 @@ const Home = () => {
   return (
     <div>
       <Banner></Banner>
-      {/* <FirstSection></FirstSection>
-      <SecondSection></SecondSection>
+      <FirstSection></FirstSection>
+      {/* <SecondSection></SecondSection>
       <ThirdSection></ThirdSection>
       <FourthSection></FourthSection>
       <FifthSection></FifthSection>

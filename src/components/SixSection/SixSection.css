@@ -40,7 +40,9 @@
 }
 @media screen and (max-width: 1047px) {
   .six_flex_div {
-    width: 92%;
+  }
+  .six_photoOne {
+    max-width: 100%;
   }
 }
 @media screen and (max-width: 1024px) {
@@ -50,5 +52,31 @@
   .six_photoOne {
     width: 100%;
     margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 830px) {
+  .six_flex_div {
+    width: 85%;
+  }
+}
+@media screen and (max-width: 663px) {
+  .six_flex_div {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 497px) {
+  .six_flex_div {
+    width: 75%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .six_flex_div {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 331px) {
+  .six_flex_div {
+    width: 65%;
   }
 }

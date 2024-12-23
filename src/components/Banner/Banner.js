@@ -8,8 +8,8 @@ const Banner = () => {
       <div className="overlay"></div>
       <video className="video" src={video} autoPlay loop muted />
       <div className="banner_container">
-        <h1>Welcome</h1>
-        <p>To my site.</p>
+        {/* <h1>Welcome</h1>
+        <p>To my site.</p> */}
       </div>
     </div>
   );

@@ -11,7 +11,7 @@ const FirstSection = () => {
   const products = [
     {
       id: 1,
-      name: "Menue",
+      name: "Man",
       image: photoOne,
     },
     {
@@ -32,10 +32,7 @@ const FirstSection = () => {
   ];
   return (
     <div className="firstSection_parent_div">
-      <h1>
-        Tailored Solutions for Every Need <br />
-        Empower Your Journey with Nestron
-      </h1>
+      <h1>Categories</h1>
       <div className="firstSection_grid_div">
         {products.map((product) => (
           <First key={product.id} product={product}></First>

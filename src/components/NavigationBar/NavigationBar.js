@@ -16,13 +16,13 @@ const NavigationBar = () => {
             <img className="mediaLogo_two" src={instagramLogo} alt="" />
           </div>
           <div className="language_div">
-            <p>
+            {/* <p>
               Bangladesh (BDT <span className="taka">৳</span>) &nbsp;
               <FontAwesomeIcon icon={faAngleDown} />
             </p>
             <p>
               English <FontAwesomeIcon icon={faAngleDown} />
-            </p>
+            </p> */}
           </div>
         </div>
       </div>
@@ -50,10 +50,10 @@ const NavigationBar = () => {
                   <div className="dropdown">
                     <ul>
                       <li className="dropdown-link">
-                        <Link href="#">Our Mission and Vision</Link>
+                        <Link href="#">Mission and Vision</Link>
                       </li>
                       <li className="dropdown-link">
-                        <Link href="#">Our Team</Link>
+                        <Link href="#">Team</Link>
                       </li>
                       {/* <li className="dropdown-link">
                         <a href="#">
@@ -94,7 +94,7 @@ const NavigationBar = () => {
                         </div>
                       </li> */}
                       <li className="dropdown-link">
-                        <Link href="#">Our Factory</Link>
+                        <Link href="#">Factory</Link>
                       </li>
                       {/* <div className="arrow"></div> */}
                     </ul>
@@ -108,10 +108,10 @@ const NavigationBar = () => {
                   <div className="dropdown">
                     <ul>
                       <li className="dropdown-link">
-                        <Link to="#">Men's Socks</Link>
+                        <Link to="#">Men</Link>
                       </li>
                       <li className="dropdown-link">
-                        <Link to="#">Women's Socks</Link>
+                        <Link to="#">Women</Link>
                       </li>
                       {/* <li className="dropdown-link">
                         <a href="#">
@@ -152,10 +152,10 @@ const NavigationBar = () => {
                         </div>
                       </li> */}
                       <li className="dropdown-link">
-                        <Link to="#">Kids' Socks</Link>
+                        <Link to="#">Kids</Link>
                       </li>
                       <li className="dropdown-link">
-                        <Link to="#">Sports Socks</Link>
+                        <Link to="#">Sports</Link>
                       </li>
                       <li className="dropdown-link">
                         <Link to="#">Specialty Socks</Link>
@@ -167,35 +167,33 @@ const NavigationBar = () => {
                 <li className="nav-link" style={{ "--i": ".85s" }}>
                   <Link href="#">
                     News & Events &nbsp;
-                    <FontAwesomeIcon icon={faAngleDown} />
+                    {/* <FontAwesomeIcon icon={faAngleDown} /> */}
                   </Link>
-                  <div className="dropdown">
+                  {/* <div className="dropdown">
                     <ul>
                       <li className="dropdown-link">
                         <Link href="#">Our Mission and Vision</Link>
                       </li>
-
-                      {/* <div className="arrow"></div> */}
                     </ul>
-                  </div>
+                  </div> */}
                 </li>
                 <li className="nav-link" style={{ "--i": ".85s" }}>
                   <Link href="#">
                     Contact Us &nbsp;
-                    <FontAwesomeIcon icon={faAngleDown} />
+                    {/* <FontAwesomeIcon icon={faAngleDown} /> */}
                   </Link>
                 </li>
               </ul>
             </div>
 
-            <div className="log-sign" style={{ "--i": "1.8s" }}>
+            {/* <div className="log-sign" style={{ "--i": "1.8s" }}>
               <a href="#" className="btn transparent">
                 Log in
               </a>
               <a href="#" className="btn solid">
                 Sign up
               </a>
-            </div>
+            </div> */}
           </div>
 
           <div className="hamburger-menu-container">

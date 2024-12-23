@@ -1,6 +1,12 @@
 .secondSection_parent_div {
   margin-top: 100px;
 }
+.secondSection_container_div {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  width: 80%;
+}
 .secondSection_parent_div h1 {
   margin-bottom: 35px;
   font-size: 40px;
@@ -9,11 +15,20 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
-  width: 75%;
+  width: 90%;
   margin: auto;
   margin-bottom: 30px;
 }
 
+.second_section_more_btn {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: black;
+}
 @media screen and (max-width: 1400px) {
   .secondSection_grid_div {
     width: 80%;

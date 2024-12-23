@@ -8,8 +8,14 @@ const First = ({ product }) => {
   return (
     <div className="first_cart_div">
       <p>{name}</p>
-      <img className="first_photo" src={image} alt="" />
-      <Link>More</Link>
+      <div>
+        <img className="first_photo" src={image} alt="" />
+      </div>
+      <div className="first_more_btn_div">
+        <Link className="first_more_btn">
+          More <span>→</span>
+        </Link>
+      </div>
     </div>
   );
 };

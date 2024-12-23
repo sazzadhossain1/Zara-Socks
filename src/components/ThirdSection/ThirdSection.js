@@ -9,7 +9,7 @@ import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 const ThirdSection = () => {
   return (
     <div className="thirdSection_div">
-      <h1>Our Production Process</h1>
+      <h1>Production Process</h1>
       <div className="thirt_section_grid_div">
         <div className="thirdSection_first_cart_div">
           <div className="thirdSection_first_cart_text_div">

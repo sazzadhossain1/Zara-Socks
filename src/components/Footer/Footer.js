@@ -23,8 +23,8 @@ const Footer = () => {
               <p>Send a message</p>
             </div>
             <div>
-              <p>+88 09612 677 677​</p>
-              <p>hello@akijbashir.com</p>
+              <p>+88 017XX XXX XXX</p>
+              <p>zarasocks@gmail.com</p>
             </div>
           </dir>
         </div>
@@ -79,7 +79,7 @@ const Footer = () => {
       <div className="footer_down_main_parent_div">
         <div className="footer_down_part_div">
           <div>
-            <small>© 2024 AkijBashir Group. All rights reserved.</small>
+            <small>© Zara Socks. All rights reserved.</small>
           </div>
           <div className="footer_logo_container">
             <h3 className="footer_logo">

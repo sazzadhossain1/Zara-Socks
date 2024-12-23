@@ -170,6 +170,8 @@ header {
 
 .dropdown ul {
   position: relative;
+  /* background-color: red; */
+  width: 100%;
 }
 
 .dropdown-link > a {

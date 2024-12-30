@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 
 const NavigationBar = () => {
   return (
-    <div>
+    <div className="nav_parent_div">
       <div className="nav_media_div_parent_div">
         <div className="nav_media_div">
           <div className="media_logo_div">

@@ -8,7 +8,9 @@ import photoFour from "../../accets/FourthSectionPhoto/photoFour.gif";
 const FourthSection = () => {
   return (
     <div className="fourth_section_grid_div">
-      <img className="fourth_section_photoOne" src={photoOne} alt="" />
+      <div className="photoOne_div">
+        <img className="fourth_section_photoOne" src={photoOne} alt="" />
+      </div>
       <div className="fourth_section_text_parent_div">
         <h1 className="newsAndEvents">News & Events</h1>
         <div className="fourth_section_flex_div">
